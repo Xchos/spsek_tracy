@@ -1,0 +1,16 @@
+{
+    "name": "spsek/sandbox",
+    "description": "sandbox for sps EK Rakovnik",
+    "type": "project",
+    "require": {
+        "dibi/dibi": "^3.0",
+        "tracy/tracy": "^2.4"
+    },
+    "license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Lukáš Zelenka",
+            "email": "lukas.zelenka974@gmail.com"
+        }
+    ]
+}
