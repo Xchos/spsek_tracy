@@ -12,5 +12,6 @@
             "name": "Lukáš Zelenka",
             "email": "lukas.zelenka974@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
