@@ -6,7 +6,7 @@ require_once "vendor/autoload.php";
 use Tracy\Debugger;
 define("APP_DIR", __DIR__);
 Debugger::$strictMode = TRUE;
-Debugger::enable();
+Debugger::enable($_SERVER["REMOTE_ADDR"]);
 Debugger::barDump($_GET, 'Data $_GET');
 Debugger::barDump($_POST, 'Data $_POST');
 Debugger::barDump($_SESSION, 'Data $_SESSION');
